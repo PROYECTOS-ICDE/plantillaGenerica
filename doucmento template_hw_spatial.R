@@ -16,7 +16,6 @@ map1gg
 saveRDS(map1gg,file='map1.rds')
 
 
-
 map2gg=ggplot() + theme_void() + geom_sf(data = map2)
 map2gg
 saveRDS(map2gg,file='map2.rds')
